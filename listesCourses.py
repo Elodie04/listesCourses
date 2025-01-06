@@ -4,12 +4,12 @@ Listes_Courses = [
 
 def ajouter_articles(article):
     Listes_Courses.append(article)
-    print(f"L'article {article} a été rajoutés",Listes_Courses)
+    print(f"L'article {article} a été rajouté",Listes_Courses)
 
 def supprimer_articles(article):
     if article in Listes_Courses:
         Listes_Courses.remove(article)
-        print(f"L'article {article} a été supprimés",Listes_Courses)
+        print(f"L'article {article} a été supprimé",Listes_Courses)
     else:
         print(f"L'article {article} n'a pas été trouvé dans la liste")
 
